@@ -6,9 +6,11 @@ This is my personal OSCP cheatsheet that also "hopefully" would let me pass my e
     ( echo USER ${user}; sleep 2s; echo PASS abcd; sleep 2s; echo LIST; sleep 2s; echo quit) | nc -nvC <ip> <port>;  done
     
 ## SMB enum
-    //SHARES
+*SHARES*
+
     nmap <ip> --script=smb-enum-shares
-    // USER/PASS check
+*SMB USER/CHECK*
+
     medusa -M smbnt -h <ip> -U userfile -P passfile -m GROUP:DOMAIN -v 4				
 
     
