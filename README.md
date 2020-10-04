@@ -28,7 +28,7 @@ Intercambia el x64 por x86 si estás en una máquina de 32 bits:
 
 ## Kernel Cross-Compiling
 
-Especialmente útil si estás enfrentando una caja old-school que aún tiene un SO de 32 bits (créeme, hay muchiiiisimas cajas así en los labs del OSCP xd)
+Especialmente útil si estás enfrentando una caja old-school que aún tiene un SO de 32 bits (créeme, hay muchiiiisimas cajas así en los labs del OSCP xd)  
 Utiliza la opción --static sabiamente https://stackoverflow.com/questions/8692128/static-option-for-gcc
 
     gcc ¿--static? -m32 -Wl, --hash-style=both <nombre.c> -o <output>			
