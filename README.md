@@ -47,6 +47,6 @@ Utiliza la opción --static sabiamente https://stackoverflow.com/questions/86921
     
 ## Windows Privesc Checklist
 
-https://guif.re/windowseop
+https://guif.re/windowseop  
 https://www.fuzzysecurity.com/tutorials/16.html
     
