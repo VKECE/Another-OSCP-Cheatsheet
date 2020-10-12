@@ -45,3 +45,7 @@ Utiliza la opción --static sabiamente https://stackoverflow.com/questions/86921
 
     searchsploit <service name>
     
+## Windows Privesc Checklist
+
+https://guif.re/windowseop
+    
